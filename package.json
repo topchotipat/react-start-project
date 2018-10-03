@@ -1,0 +1,32 @@
+{
+  "name": "project-name",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.2.9",
+    "apollo-client": "^2.4.1",
+    "apollo-link-http": "^1.5.4",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.9.2",
+    "mobx": "^5.1.0",
+    "mobx-react": "^5.2.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.0",
+    "react-apollo": "^2.1.11",
+    "react-app-rewire-mobx": "^1.0.8",
+    "react-app-rewired": "^1.6.2",
+    "react-dom": "^16.5.0",
+    "react-router-dom": "^4.3.1",
+    "recompose": "^0.30.0",
+    "styled-components": "^3.4.5"
+  },
+  "devDependencies": {
+    "sendit-react-scripts": "1.1.26"
+  },
+  "scripts": {
+    "start": "react-app-rewired start --scripts-version sendit-react-scripts",
+    "build": "react-app-rewired build --scripts-version sendit-react-scripts",
+    "test": "react-app-rewired test --scripts-version sendit-react-scripts --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
